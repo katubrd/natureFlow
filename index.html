@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nature FLOWt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="welcome">
+      <p>H</p>
+    </div>
+    <div id="left" class="animation">
+      <h1>nature flow</h1>
+    </div>
+  </header>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+  <script src="main.js"></script>
+  <script>
+  var leftAnim = document.getElementById('left');
+
+  TweenLite.from(leftAnim, 1, {x: -2000, delay: 1.7});
+  </script>
+</body>
+</html>
